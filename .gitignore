@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+
+# Python versioning & dependency files
+.python-version
+pyproject.toml
+uv.lock
+
+# Python cache & build crap
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# IDE/project files
+.vscode/
+
+# OS noise
+.DS_Store
+Thumbs.db

@@ -30,6 +30,11 @@ def main():
         # Update game state
         updatable.update(dt)
 
+        # Check for collisions
+        for asteroid in asteroids:
+            if asteroid.collision_detection(player):
+                exit()
+
         screen.fill("black")
         
         # Draw Game objects

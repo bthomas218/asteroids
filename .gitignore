@@ -20,3 +20,5 @@ dist/
 # OS noise
 .DS_Store
 Thumbs.db
+
+game_state.jsonl

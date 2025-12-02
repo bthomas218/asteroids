@@ -24,6 +24,7 @@ def main():
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
     asteroid_field = AsteroidField()
     
+    print(f"Starting Asteroids\nScreen width: {SCREEN_WIDTH}\nScreen height: {SCREEN_HEIGHT}")
     # Game Loop
     while(True):
         for event in pygame.event.get():
